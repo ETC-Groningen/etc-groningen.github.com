@@ -1,0 +1,17 @@
+
+	<ul>
+		<li id="menuHome"><a href="/"><span>Home</span></a></li>
+		<li id="menuBetrokkenen"><a href="/Betrokkenen"><span>Betrokkenen</span></a></li>
+		<li id="menuOnderzoek"><a href="/Onderzoek"><span>Onderzoek</span></a></li>
+		<li id="menuWorkshops"><a href="/Workshops"><span>Workshops</span></a></li>
+		<li id="menuKlinisch"><a href="/Klinisch"><span>Klinische Tak</span></a></li>
+		<li id="menuStructuur"><a href="/Structuur"><span>Structuur</span></a></li>
+		<li id="menuLinks"><a href="/links"><span>Links</span></a></li>
+	</ul>
+
+	{% if page.menu %}
+		<script type="text/javascript">
+			document.getElementById("{{page.menu}}").setAttribute("class", "active");
+		</script>
+	{% endif %}
+	
