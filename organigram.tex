@@ -1,0 +1,42 @@
+\documentclass[12pt, landscape]{article}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning}
+%\pgfrealjobname{ETC}
+\pagestyle{empty}
+\begin{document}
+
+\tikzstyle{line} = [draw]
+
+
+\begin{figure}[!h]  
+%\beginpgfgraphicnamed{orga}
+\begin{tikzpicture}[font=\sf]
+
+
+\node(bestuur){Bestuur};
+\node(bestuur2)[below of =bestuur, text width = 4cm, text centered]{(Bastiaanse, Janssen, Maassen, Tucha)};
+\node(co)[below =1cm of bestuur2]{Co\"ordinator};
+\node(etc) [below =1cm of co, ellipse, fill=red!20, minimum height = 2cm, text width = 5cm, text centered]{Expertisecentrum Taal- en Communicatiestoornissen}; 
+\node(klinisch)[below =1cm of etc, text width = 4cm, text centered]{experimenteel klinisch onderzoek};
+\node(otv)[font=\bf, left =5cm of bestuur2, text width = 4.1cm]{Onderwijs, training \& voorlichting};
+
+\node(stud)[below right =0.5cm of otv]{studenten};
+\node{prom}[below left =0.5cm of stud]{promovendi};
+
+\path[draw](bestuur2)--(co);
+\path[draw] (co)--(etc);
+\draw[-triangle 45](etc)--(klinisch);
+
+
+
+
+
+
+
+\end{tikzpicture}
+%\endpgfgraphicnamed
+\end{figure}
+\end{document}

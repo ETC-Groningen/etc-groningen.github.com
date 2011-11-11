@@ -7,7 +7,7 @@ Released for free under a Creative Commons Attribution 3.0 License
 <head>
 <title>Expertisecentrum Taal- en Communicatiestoornissen</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link href="default.css" rel="stylesheet" type="text/css" />
+<link href="/default.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div class="main">
@@ -19,16 +19,7 @@ Released for free under a Creative Commons Attribution 3.0 License
       <div class="clr"></div>
       <div class="menu_nav">
         {% include menu.html %}
-        <div class="search">
-          <form id="form" name="form" method="post" action="">
-            <span>
-              <input name="q" type="text" class="keywords" id="textfield" maxlength="50" value="Search..." />
-            </span>
-            <input name="b" type="image" src="images/search.gif" class="button" />
-         
-          </form>
-        </div>
-      <!--/search -->
+        
       </div>
       <div class="clr"></div> 
     </div>
@@ -36,7 +27,9 @@ Released for free under a Creative Commons Attribution 3.0 License
   <div class="clr"></div>
   <div class="content">
     <div class="content_resize">
+      <h2>{{page.title}}</h2>
       <div class="mainbar">
+        
         <div class="article">
           {{content}}
         </div>        
@@ -61,7 +54,7 @@ Released for free under a Creative Commons Attribution 3.0 License
           <h2><br></h2> 
           <p>Tel: 050-3635970
           </br>E-mail: etc {at} rug {dot} nl
-          </br>Web: <a href="http://etc-groninge.gihtub.com/">http://etc-groninge.gihtub.com/</a></p>
+          </br>Web: <a href="http://etc-groningen.github.com/">http://etc-groningen.github.com/</a></p>
       </div>
           
       

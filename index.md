@@ -1,15 +1,11 @@
 ---
 layout: index
-title: Welcome
+title: Welkom...
 menu: menuHome
 ---
 
-
-Welkom...
------------
-
 ... bij het Expertisecentrum Taal- en Communicatiestoornissen. 
-Tegenwoordig werken we nog aan onze website. U kunt ons echter
+Tegenwoordig werken we nog aan onze website. We hopen zo snel mogelijk meer informatie toe te kunnen voegen. U kunt ons echter
 wel al bereiken met uw vragen via onderstaande contactgegevens.  
 
 
