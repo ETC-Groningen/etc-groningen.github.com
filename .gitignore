@@ -1,2 +1,5 @@
 /_site
 /*.sublime-*
+*.log
+*.aux
+*synctex.*

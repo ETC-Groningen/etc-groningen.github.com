@@ -4,8 +4,10 @@ Design by http://www.templateaccess.com
 Released for free under a Creative Commons Attribution 3.0 License
 */
 
-body { margin:0; padding:0; width:100%; color:#737373; font:normal 14px/1.8em Arial, Helvetica, sans-serif;}
-html, .main { padding:0; margin:0; background:#2e3037 url(images/main_bg.gif) top repeat-x;}
+html{background:#2e3037;}
+
+body {margin:0 auto; padding:0; width:720px; color:#737373; font:normal 14px/1.8em Arial, Helvetica, sans-serif;}
+.main { padding:0; margin:0 auto; background:#2e3037 url(images/main_bg.gif) top repeat-x; width:720px;}
 .clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
 .logo { padding:20px 0 20px 20px; margin:0 auto; width:720px;}
 .logo img { float:left; margin:0 10px 0 0; }
@@ -23,9 +25,9 @@ a.rm, a.com { margin-left:8px; padding:9px 12px; background:url(images/a_bg.gif)
 .header, .content, .menu_nav, .fbg, .footer, form, ol, ol li, ul, .content .mainbar, .content .sidebar { margin:0; padding:0;}
 
 /* header */
-.header { }
+.header {width:720px; margin: 0 auto;}
 .header_resize { margin:0 auto; padding:0; width:720px;}
-.header_img { width:970px;  padding:10px 0 0 0;}
+.header_img { width:720px;  padding:10px 0 0 0;}
 /* menu */
 .menu_nav { margin:4px auto 0 auto; padding:10px 20px 0 20px; float:left; width:680px;}
 .menu_nav ul { list-style:none; padding:0; margin:0; }
@@ -40,7 +42,7 @@ a.rm, a.com { margin-left:8px; padding:9px 12px; background:url(images/a_bg.gif)
 .content { padding:10px 0 0 0;}
 .content_resize { margin:0 auto; padding:20px 0 0 0; width:720px;  background:#eceff0 url(images/countent_vf.gif) top repeat-x;}
 .content .mainbar { margin:0; float:left;}
-.content .mainbar img { float:left; padding:4px; margin:0 10px 0 0; border:1px solid #eaecec; background-color:#fff;}
+.content .mainbar img {text-align:center; padding:4px; margin:0 10px 0 0; border:1px solid #eaecec;}
 .content .mainbar .article { margin:0 0 20px 0;  padding:30px 20px;  width:680px;}
 .content .mainbar .article ul {margin-left: 20px;}
 .content .mainbar .article span.butons a { margin:0 5px 0 0; float:right; color:#9a9a9a; padding:1px 10px; text-decoration:none;  border:1px solid #ebe8e8; background:#fbfbfc;}
@@ -49,24 +51,24 @@ a.rm, a.com { margin-left:8px; padding:9px 12px; background:url(images/a_bg.gif)
 
 
 /* fbg */
-.fbg { padding:10px 0 0 0; border-top:1px solid #5e5f62; background:#484e55 url(images/fbg_bg.gif) bottom repeat-x; margin:10px 0 0 0;}
-.fbg_resize { margin:0 auto; padding:20px 20px; width:720px;}
+.fbg { padding:10px 0 0 0; border-top:1px solid #5e5f62; background:#484e55 url(images/fbg_bg.gif) bottom repeat-x; margin:0 auto; width:720px;}
+.fbg_resize { margin:0 auto; padding:20px 20px; width:680px;}
 .fbg  h2 { color:#dedddd;}
 .fbg  p { color:#959595; margin-left:10px;}
 .fbg  a { color:#3a99d5; text-decoration:none;}
 .fbg  img { padding:4px; border:1px solid #cfd2d4; background-color:#fff;}
-.fbg .col { margin:0; float:left;}
-.fbg .c1 { padding:0 16px 0 0; margin-left:0px; width:416px;}
+.fbg .col { margin:0; float:left; padding:0;}
+.fbg .c1 { padding:0 0 0 0; margin-left:0px; width:416px;}
 /*.fbg .c2 { padding:0 16px; width:300px;}*/
 .fbg .c3 { padding:0 0 0 16px; width:250px;}
 .fbg .c1 img { margin:8px;}
 .fbg .c3 img { margin:8px 16px 4px 0; float:left;}
 
 /* footer */
-.footer { width:970px; margin:0 auto; margin-left:10px; padding:20px 0;}
-.footer p.lf { margin:0; padding:4px 0; float:right; width:auto; text-align:right; line-height:1.5em; color:#888787;}
+.footer { width:720px; margin:0 auto; padding:20px 0;background:#484e55 url(images/footer.gif) bottom repeat-x;}
+.footer p.lf { margin:0; margin-right:10px; padding:4px 0; float:right; width:auto; text-align:right; line-height:1.5em; color:#888787;}
 .footer p.lf a { color:#2cadff;}
-.footer p.lr { margin:0; padding:4px 0; float:left; width:auto; line-height:1.5em; color:#888787;}
+.footer p.lr { margin:0 auto; padding:4px 0; width:720px; line-height:1.5em; color:#888787; text-align:center;}
 .footer p.lr a { color:#2cadff;}
 
 
